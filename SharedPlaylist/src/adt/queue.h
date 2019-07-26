@@ -13,7 +13,6 @@ class Queue
 private:
 	class QueueNode
 	{
-		friend class Iterator;
 	public:
 		QueueNode() : next(NULL), prev(NULL) { };
 		QueueNode(std::unique_ptr<Song> song) : data(std::move(song)), next(NULL), prev(NULL) {};
