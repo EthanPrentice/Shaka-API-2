@@ -124,11 +124,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="src\adt\player.h" />
-    <ClInclude Include="src\adt\queue.h" />
+    <ClInclude Include="src\adt\song_queue.h" />
+    <ClInclude Include="src\adt\repeat_mode.h" />
     <ClInclude Include="src\adt\song.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\adt\queue.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="src\adt\song_queue.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>

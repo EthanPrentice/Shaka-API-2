@@ -21,7 +21,10 @@
     <ClInclude Include="src\adt\player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\adt\queue.h">
+    <ClInclude Include="src\adt\repeat_mode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\adt\song_queue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -29,7 +32,10 @@
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\adt\queue.cpp">
+    <ClCompile Include="src\adt\song_queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

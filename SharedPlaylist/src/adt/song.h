@@ -5,7 +5,7 @@ class Song
 {
 public:
 	Song(int n) : number(n) {};
-	int number;
+	int number; // just here for testing purposes
 };
 
 #endif
